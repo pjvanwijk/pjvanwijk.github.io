@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FakeSearch</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>FakeSearch</h1>
+            <p>This is a simple example webpage used for a running experiment with the <a href="https://github.com/pjvanwijk/LogUI-config-builder">LogUI configuration builder</a> Chrome extension.</p>
+        </div>
+        <div class="search-container">
+            <div class="search-engine">
+            <input
+                type="input"
+                id="search-input"
+                autocomplete="off"
+                placeholder="Search for something"
+            />
+            <button>
+                Search
+            </button>
+            </div>
+            <div id="search-results">
+                <h2>Fake Results</h2>
+                <ul id="search-result-list">
+                    <li class="fakeresult" style="color: red;"><a href="" class="advert">result1: This result is an advertisement.</a></li>
+                    <li class="fakeresult"><a href="">result2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, eaque?</a></li>
+                    <li class="fakeresult"><a href="">result3: Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, unde.</a></li>
+                    <li class="fakeresult"><a href="">result4: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto!</a></li>
+                    <li class="fakeresult"><a href="">result5: Lorem ipsum dolor, sit amet consectetur adipisicing.</a></li>
+                    <li class="fakeresult" style="color: red;"><a href="" class="advert">result6: This result is an advertisement.</a></li>
+                    <li class="fakeresult"><a href="">result7: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, labore.</a></li>
+                </ul>
+            </div>
+            <div id="search-data"></div>
+        </div>
+    </div>
+</body>
+</html>
